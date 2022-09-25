@@ -7,6 +7,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    /* background-image: url(images/skill-bg.gif);
+    background-position: left;
+    background-size: 200px;
+    background-repeat: no-repeat; */
 }
 
 /* Navigation Bar  */
@@ -355,6 +359,7 @@ body {
 /* Skill Section  */
 .skills {
     margin: 40px 200px;
+
 }
 
 .skills h1 {
