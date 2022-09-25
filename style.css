@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Bar  */
+.nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 35px;
+    /* margin-bottom: 20px; */
+    /* border: 1px solid thistle; */
+    box-shadow: 5px 5px 5px rgb(241, 229, 241);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-left>img {
+    width: 60px;
+    height: 60px;
+
+}
+
+.nav-left p {
+    font-size: 30px;
+    color: darkred;
+    /* font-weight: 600; */
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-right a {
+    margin-right: 5px;
+    padding: 10px;
+    text-decoration: transparent;
+    color: black;
+    transition: text-decoration 1s ease-in-out, letter-spacing 0.50s ease-in-out;
+}
+
+.nav-right a:hover {
+    /* background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 10px; */
+    color: darkred;
+    font-weight: 600;
+    text-shadow: 1px 1px 20px wheat;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    letter-spacing: 1px;
+}
+
+/* Banner Section  */
+.banner {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("images/bg3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    margin-bottom: 50px;
+
+
+}
+
+.banner-right img {
+    width: 250px;
+}
+
+.banner-left h2 {
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.banner-left h6 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.banner-left h6>span {
+    color: rgb(234, 135, 21);
+}
+
+.banner-left-name {
+    font-size: 50px;
+    position: relative;
+    white-space: nowrap;
+    color: transparent;
+}
+
+/* 
+.banner-left-name>span {
+    color: rgb(255, 156, 8);
+} */
+
+.banner-left-name::before {
+    content: "I'm Saima Siddique";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(113, 0, 0);
+    animation: typing 3s linear infinite;
+}
+
+
+
+@keyframes typing {
+    0% {
+        content: "I|";
+    }
+
+    2% {
+        content: "I'|";
+    }
+
+    4% {
+        content: "I'm|";
+    }
+
+    8% {
+        content: "I'm |";
+    }
+
+    10% {
+        content: "I'm S|";
+    }
+
+    14% {
+        content: "I'm Sa|";
+    }
+
+    16% {
+        content: "I'm Sai|";
+    }
+
+    20% {
+        content: "I'm Saim|";
+    }
+
+    24% {
+        content: "I'm Saima|";
+    }
+
+    28% {
+        content: "I'm Saima |";
+    }
+
+    30% {
+        content: "I'm Saima S|";
+    }
+
+    34% {
+        content: "I'm Saima Si|";
+    }
+
+    38% {
+        content: "I'm Saima Sid|";
+    }
+
+    40% {
+        content: "I'm Saima Sidd|";
+    }
+
+    42% {
+        content: "I'm Saima Siddi|";
+    }
+
+    46% {
+        content: "I'm Saima Siddiq|";
+    }
+
+    50% {
+        content: "I'm Saima Siddiqu|";
+    }
+
+    54% {
+        content: "I'm Saima Siddique|";
+    }
+
+    58%,
+    68% {
+        content: "I'm Saima Siddique|";
+    }
+
+    72% {
+        content: "I'm Saima Siddiqu|";
+    }
+
+    76% {
+        content: "I'm Saima Siddiq|";
+    }
+
+    77% {
+        content: "I'm Saima Siddiq|";
+    }
+
+    79% {
+        content: "I'm Saima Siddi|";
+    }
+
+    80% {
+        content: "I'm Saima Sidd|";
+    }
+
+    82% {
+        content: "I'm Saima Sid|";
+    }
+
+    84% {
+        content: "I'm Saima Sid|";
+    }
+
+    85% {
+        content: "I'm Saima Si|";
+    }
+
+    86% {
+        content: "I'm Saima S|";
+    }
+
+    87% {
+        content: "I'm Saima |";
+    }
+
+    88% {
+        content: "I'm Saima|";
+    }
+
+    89% {
+        content: "I'm Saim|";
+    }
+
+    90% {
+        content: "I'm Sai|";
+    }
+
+    91% {
+        content: "I'm Sa|";
+    }
+
+    92% {
+        content: "I'm S|";
+    }
+
+    93% {
+        content: "I'm |";
+    }
+
+    94% {
+        content: "I'm|";
+    }
+
+    95% {
+        content: "I'|";
+    }
+
+    97% {
+        content: "I|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+}
+
+.banner-btn {
+    width: 120px;
+    height: 40px;
+    padding: 10px 15px;
+    background-color: rgb(235, 149, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 2px 5px 5px tan;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.banner-btn:hover {
+    border: 2px solid rgb(156, 68, 0);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.banner-icon a {
+    color: black;
+}
+
+.banner-icon {
+
+    width: 120px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* About section  */
+.about {
+    text-align: center;
+    margin: 10px 50px;
+}
+
+.about h1 {
+    font-size: 45px;
+    text-decoration: transparent;
+    /* text-underline-offset: 10px; */
+    margin-bottom: 20px;
+    transition: text-decoration 1s ease-in-out;
+}
+
+.about h1:hover {
+    text-decoration: underline overline;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 2px;
+}
+
+.about h1>span {
+    color: rgb(234, 135, 21);
+}
+
+/* Skill Section  */
+.skills {
+    margin: 40px 200px;
+}
+
+.skills h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skills-card {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: ; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.skills-card div {
+    /* border: 1px solid; */
+    /* width: 250px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    border: transparent;
+    transition: border 1s ease-in-out;
+}
+
+.skills-card div:hover {
+    border: 2px solid tan;
+    cursor: pointer;
+}
+
+.skills-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.skills-card h2 {
+    margin-bottom: 10px;
+    color: rgb(94, 1, 1);
+}
