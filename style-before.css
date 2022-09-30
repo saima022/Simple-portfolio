@@ -1,0 +1,21 @@
+p {
+    font-size: 20px;
+    color: blueviolet;
+    border: 1px solid;
+    position: relative;
+    /* behaving like parent element  */
+}
+
+p::before {
+    content: "text-added before- ";
+    color: chocolate;
+}
+
+p::after {
+    content: " Text added after";
+    color: yellowgreen;
+    position: absolute;
+    /* change according to parent content  */
+    top: 0;
+    right: 0;
+}

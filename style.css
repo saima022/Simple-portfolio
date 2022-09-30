@@ -127,7 +127,7 @@ body {
 .banner-left-name::before {
     content: "I'm Saima Siddique";
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     color: rgb(113, 0, 0);
     animation: typing 3s linear infinite;
