@@ -15,6 +15,7 @@ body {
 
 /* Navigation Bar  */
 .nav {
+
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -408,4 +409,44 @@ body {
 .skills-card h2 {
     margin-bottom: 10px;
     color: rgb(94, 1, 1);
+}
+
+
+/* Making the website responsive  */
+@media only screen and (max-width: 688px) {
+
+
+    .nav {
+        width: 100vw;
+        padding: 0;
+
+    }
+
+    .nav-left p {
+        font-size: 4vw;
+    }
+
+    .nav-left img {
+        width: 10vw;
+        height: 8vh;
+    }
+
+    .nav-right a {
+        padding: 2vw;
+        font-size: 3vw;
+    }
+
+    .banner-right img {
+        width: 25vw;
+    }
+
+    .skills {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .skills-card {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
 }
