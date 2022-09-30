@@ -436,8 +436,32 @@ body {
         font-size: 3vw;
     }
 
+    .banner {
+        /* display: grid;
+        grid-template-columns: 1fr; */
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 10vw;
+
+        margin: 0 5vw;
+    }
+
+    .banner-left {
+        text-align: center;
+    }
+
+    .banner-left-name {
+        font-size: 6vw;
+        /* left: 20vw; */
+    }
+
     .banner-right img {
         width: 25vw;
+    }
+
+    .banner-btn {
+        /* text-align: center; */
+        /* left: 200px; */
     }
 
     .skills {
@@ -447,6 +471,6 @@ body {
 
     .skills-card {
         grid-template-columns: 1fr;
-        row-gap: 20px;
+        row-gap: 6vh;
     }
 }
